@@ -1,0 +1,1078 @@
+--------- beginning of /dev/log/main
+I/cm      ( 1462): Welcome to Android 4.4.2 / 11-20140430-UNOFFICIAL-shakira 
+I/cm      ( 1463): ##############################################
+I/cm      ( 1464): #     ) (       (   (          )             #
+I/cm      ( 1465): #  ( /( )\ )    )\ ))\ )    ( /(   (         #
+I/cm      ( 1466): #  )\()|()/((  (()/(()/((   )\())  )\  (     #
+I/cm      ( 1467): # ((_)\ /(_))\  /(_))(_))\ ((_)\ (((_) )\    #
+I/cm      ( 1468): # __((_|_))((_)(_))(_))((_) _((_))\___((_)   #
+I/cm      ( 1468): # \ \/ / _ \ __| _ \_ _| __| \| ((/ __| __|  #
+I/cm      ( 1468): #  >  <|  _/ _||   /| || _|| .` || (__| _|   #
+I/cm      ( 1468): # /_/\_\_| |___|_|_\___|___|_|\_| \___|___|  #
+I/cm      ( 1468): #     (C)2014 The XPerience Project          #
+I/cm      ( 1468): #              By Klozz Jesus                #
+I/cm      ( 1468): ##############################################
+E/mountext( 1486): linux partition not found on sdcard 
+I/mountext( 1489): No swap partition found. 
+I/apps2sd ( 1492): /sd-ext not mounted...nothing to do 
+--------- beginning of /dev/log/system
+I/auditd  ( 1507): Starting up
+E/audit_log( 1507): Could not stat audit logfile /data/misc/audit/audit.log: Permission denied
+E/auditd  ( 1507): Failed on audit_log_open
+I/auditd  ( 1507): Exiting
+E/libaudit( 1507): Could net set pid for audit events, error: Protocol error
+I/AKMD2   ( 1518): AK8975/B for Android v0.9.0.1016 (Library: v1.0.0.929) started.
+E/AKMD2   ( 1518): akmd2 : Device opened.
+I/DEBUG   ( 1509): debuggerd: Apr 27 2014 06:18:23
+I/installd( 1515): installd firing up
+E/cutils  ( 1515): Failed to read /data/.layout_version: No such file or directory
+D/installd( 1515): Upgrading /data/media for multi-user
+D/installd( 1515): Upgrading to shared /data/media/obb
+I/ChargAlg( 1519): USB connected: 1, AC connected: 0
+I/ChargAlg( 1519): USB connected: 1, AC connected: 0
+I/Netd    ( 1508): Netd 1.0 starting
+W/InterfaceController( 1508): Warning (dlopen failed: library "/system/lib/libnetcmdiface.so" not found) while opening the net interface command library
+I/Vold    ( 1506): Vold 2.1 (the revenge) firing up
+D/Vold    ( 1506): Volume sdcard0 state changing -1 (Initializing) -> 0 (No-Media)
+D/Vold    ( 1506): Volume sdcard0 state changing 0 (No-Media) -> 2 (Pending)
+D/DirectVolume( 1506): DirectVolume::handlePartitionAdded -> MAJOR 179, MINOR 1, PARTN 1
+D/Vold    ( 1506): Volume sdcard0 state changing 2 (Pending) -> 1 (Idle-Unmounted)
+I/SurfaceFlinger( 1511): SurfaceFlinger is starting
+I/SurfaceFlinger( 1511): SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+D/libEGL  ( 1511): loaded /system/lib/egl/libEGL_adreno200.so
+D/libEGL  ( 1511): loaded /system/lib/egl/libGLESv1_CM_adreno200.so
+D/libEGL  ( 1511): loaded /system/lib/egl/libGLESv2_adreno200.so
+I/gralloc ( 1511): using (fd=13)
+I/gralloc ( 1511): id           = msmfb30_1ffff
+I/gralloc ( 1511): xres         = 320 px
+I/gralloc ( 1511): yres         = 480 px
+I/gralloc ( 1511): xres_virtual = 320 px
+I/gralloc ( 1511): yres_virtual = 1440 px
+I/gralloc ( 1511): bpp          = 16
+I/gralloc ( 1511): r            = 11:5
+I/gralloc ( 1511): g            =  5:6
+I/gralloc ( 1511): b            =  0:5
+I/gralloc ( 1511): width        = 51 mm (159.372543 dpi)
+I/gralloc ( 1511): height       = 76 mm (160.421051 dpi)
+I/gralloc ( 1511): refresh rate = 60.00 Hz
+D/CALCFPS ( 1511): DEBUG_CALC_FPS: 0
+D/CALCFPS ( 1511): period: 10
+D/CALCFPS ( 1511): ignorethresh_us: 500000
+D/CALCFPS ( 1511): DEBUG_CALC_FPS: 0
+D/CALCFPS ( 1511): period: 10
+D/CALCFPS ( 1511): ignorethresh_us: 500000
+E/SurfaceFlinger( 1511): hwcomposer module not found
+W/SurfaceFlinger( 1511): getting VSYNC period from fb HAL: 16666666
+E/Adreno200-EGL( 1511): <qeglDrvAPI_eglChooseConfig:757>: EGL_BAD_ATTRIBUTE
+E/Adreno200-EGL( 1511): <qeglDrvAPI_eglChooseConfig:757>: EGL_BAD_ATTRIBUTE
+W/SurfaceFlinger( 1511): no suitable EGLConfig found, trying a simpler query
+I/SurfaceFlinger( 1511): EGL informations:
+I/SurfaceFlinger( 1511): vendor    : Android
+I/SurfaceFlinger( 1511): version   : 1.4 Android META-EGL
+I/SurfaceFlinger( 1511): extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_image EGL_KHR_image_base EGL_KHR_lock_surface EGL_KHR_fence_sync EGL_ANDROID_image_native_buffer EGL_ANDROID_recordable 
+I/SurfaceFlinger( 1511): Client API: OpenGL_ES
+I/SurfaceFlinger( 1511): EGLSurface: 5-6-5-0, config=0x1
+I/SurfaceFlinger( 1511): OpenGL ES informations:
+I/SurfaceFlinger( 1511): vendor    : Qualcomm
+I/SurfaceFlinger( 1511): renderer  : Adreno (TM) 200
+I/SurfaceFlinger( 1511): version   : OpenGL ES 2.0 2131267
+I/SurfaceFlinger( 1511): extensions: GL_EXT_debug_marker GL_AMD_compressed_ATC_texture GL_AMD_performance_monitor GL_AMD_program_binary_Z400 GL_EXT_texture_filter_anisotropic GL_EXT_texture_format_BGRA8888 GL_EXT_texture_type_2_10_10_10_REV GL_NV_fence GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_depth24 GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_fragment_precision_high GL_OES_get_program_binary GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_OES_standard_derivatives GL_OES_texture_3D GL_OES_texture_float GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_vertex_type_10_10_10_2 GL_OES_vertex_array_object GL_QCOM_alpha_test GL_QCOM_binning_control GL_QCOM_driver_control GL_QCOM_perfmon_global_mode GL_QCOM_extended_get GL_QCOM_extended_get2 GL_QCOM_tiled_rendering GL_QCOM_writeonly_rendering GL_AMD_compressed_3DC_texture 
+I/SurfaceFlinger( 1511): GL_MAX_TEXTURE_SIZE = 4096
+I/SurfaceFlinger( 1511): GL_MAX_VIEWPORT_DIMS = 4096
+E/cutils-trace( 1511): Error opening trace file: No such file or directory (2)
+D/SurfaceFlinger( 1511): Screen acquired, type=0 flinger=0xf450
+I/mediaserver( 1514): ServiceManager: 0x13460
+I/AudioFlinger( 1514): Using default 3000 mSec as standby time.
+E/MediaPlayerFactory( 1514): calling dlopen on FACTORY_LIB
+E/MediaPlayerFactory( 1514): Failed to open FACTORY_LIB Error : dlopen failed: library "libdashplayer.so" not found 
+I/CameraService( 1514): CameraService started (pid=1514)
+E/CameraService( 1514): Could not load camera HAL module
+E/AudioPolicyManagerBase( 1514): could not load audio policy configuration file, setting defaults
+I/XPe_AudioHardware( 1514): get_audpp_filter
+E/XPe_AudioHardware( 1514): failed to open AUDIO_NORMAL_FILTER /system/etc/AudioFilter.csv: No such file or directory (2).
+E/XPe_AudioHardware( 1514): failed to open AUTO_VOLUME_CONTROL /system/etc/AutoVolumeControl.txt: No such file or directory (2)
+I/ChargAlg( 1519): USB maximum current: 500
+I/XPe_AudioHardware( 1514): Set master volume to 1.
+I/ChargAlg( 1519): USB maximum current: 0
+I/AudioFlinger( 1514): loadHwModule() Loaded primary audio interface from LEGACY Audio HW HAL (audio) handle 1
+I/AudioFlinger( 1514): HAL output buffer size 1200 frames, normal mix buffer size 1200 frames
+I/AudioMixer( 1514): found effect "Multichannel Downmix To Stereo" from The Android Open Source Project
+I/AudioFlinger( 1514): Using module 1 has the primary audio interface
+D/AudioHardwareInterface( 1514): setMode(NORMAL)
+I/AudioFlinger( 1514): AudioFlinger's thread 0x40e98008 ready to run
+W/AudioFlinger( 1514): Thread AudioOut_2 cannot connect to the power manager service
+I/XPe_AudioHardware( 1514): Routing audio to Speakerphone (0,2)
+D/XPe_AudioHardware( 1514): doAudioRouteOrMute() device 25, mMode 0, mMicMute 1, mBuiltinMicSelected 0, muted
+I/XPe_AudioHardware( 1514): Routing audio to Speakerphone (0,2)
+W/AudioFlinger( 1514): Thread AudioOut_2 cannot connect to the power manager service
+D/XPe_AudioHardware( 1514): setVoiceVolume(0.000000)
+I/XPe_AudioHardware( 1514): Setting in-call volume to 1 (available range is 1 to 6)
+W/AudioFlinger( 1514): Thread AudioOut_2 cannot connect to the power manager service
+E/AudioFlinger( 1514): no wake lock to update!
+I/AudioPolicyService( 1514): Loaded audio policy from LEGACY Audio Policy HAL (audio_policy)
+D/libEGL  ( 1636): loaded /system/lib/egl/libEGL_adreno200.so
+D/libEGL  ( 1636): loaded /system/lib/egl/libGLESv1_CM_adreno200.so
+D/libEGL  ( 1636): loaded /system/lib/egl/libGLESv2_adreno200.so
+E/cutils-trace( 1636): Error opening trace file: No such file or directory (2)
+D/memalloc( 1511): init_pmem_area: Initializing pmem area
+D/memalloc( 1511): init_pmem_area_locked: Opening master pmem FD
+D/memalloc( 1511): getPmemTotalSize: Allocating 4000000 bytes of pmem for camera
+D/memalloc( 1511): init_pmem_area_locked: Total pmem size: 8832768
+I/ChargAlg( 1519): USB maximum current: 500
+I/auditd  ( 1693): Starting up
+E/audit_log( 1693): Could not stat audit logfile /data/misc/audit/audit.log: Permission denied
+E/auditd  ( 1693): Failed on audit_log_open
+I/auditd  ( 1693): Exiting
+E/libaudit( 1693): Could net set pid for audit events, error: Protocol error
+D/AndroidRuntime( 1512): 
+D/AndroidRuntime( 1512): >>>>>> AndroidRuntime START com.android.internal.os.ZygoteInit <<<<<<
+D/AndroidRuntime( 1512): CheckJNI is OFF
+D/dalvikvm( 1512): DexOpt: --- BEGIN 'core.jar' (bootstrap=1) ---
+D/dalvikvm( 1724): Ignoring duplicate verify attempt on Ljava/lang/Object;
+I/auditd  ( 1770): Starting up
+E/audit_log( 1770): Could not stat audit logfile /data/misc/audit/audit.log: Permission denied
+E/auditd  ( 1770): Failed on audit_log_open
+I/auditd  ( 1770): Exiting
+E/libaudit( 1770): Could net set pid for audit events, error: Protocol error
+D/dalvikvm( 1724): Ignoring duplicate verify attempt on Ljava/lang/Class;
+D/dalvikvm( 1724): Ignoring duplicate verify attempt on Ljava/lang/ref/Reference;
+D/dalvikvm( 1724): Ignoring duplicate verify attempt on Ljava/lang/ref/ReferenceQueue;
+D/dalvikvm( 1724): Ignoring duplicate verify attempt on Ljava/lang/ref/FinalizerReference;
+V/NatController( 1508): runCmd(/system/bin/iptables -F natctrl_FORWARD) res=0
+V/NatController( 1508): runCmd(/system/bin/iptables -A natctrl_FORWARD -j DROP) res=0
+V/NatController( 1508): runCmd(/system/bin/iptables -t nat -F natctrl_nat_POSTROUTING) res=0
+V/NatController( 1508): runCmd(/system/bin/ip route flush cache) res=0
+V/NatController( 1508): runCmd(/system/bin/iptables -F natctrl_tether_counters) res=1
+V/NatController( 1508): runCmd(/system/bin/iptables -X natctrl_tether_counters) res=1
+V/NatController( 1508): runCmd(/system/bin/iptables -N natctrl_tether_counters) res=0
+I/auditd  ( 1864): Starting up
+E/audit_log( 1864): Could not stat audit logfile /data/misc/audit/audit.log: Permission denied
+E/auditd  ( 1864): Failed on audit_log_open
+I/auditd  ( 1864): Exiting
+E/libaudit( 1864): Could net set pid for audit events, error: Protocol error
+D/MDnsDS  ( 1508): MDnsSdListener::Hander starting up
+D/MDnsDS  ( 1508): MDnsSdListener starting to monitor
+D/MDnsDS  ( 1508): Going to poll with pollCount 1
+D/dalvikvm( 1724): DexOpt: load 671ms, verify+opt 8437ms, 1514052 bytes
+D/dalvikvm( 1512): DexOpt: --- END 'core.jar' (success) ---
+D/dalvikvm( 1512): DEX prep '/system/framework/core.jar': unzip in 1594ms, rewrite 11760ms
+D/dalvikvm( 1512): DexOpt: --- BEGIN 'conscrypt.jar' (bootstrap=1) ---
+D/dalvikvm( 1921): DexOpt: load 52ms, verify+opt 545ms, 422604 bytes
+D/dalvikvm( 1512): DexOpt: --- END 'conscrypt.jar' (success) ---
+D/dalvikvm( 1512): DEX prep '/system/framework/conscrypt.jar': unzip in 105ms, rewrite 775ms
+D/dalvikvm( 1512): DexOpt: --- BEGIN 'okhttp.jar' (bootstrap=1) ---
+D/dalvikvm( 1922): DexOpt: load 35ms, verify+opt 282ms, 346252 bytes
+D/dalvikvm( 1512): DexOpt: --- END 'okhttp.jar' (success) ---
+D/dalvikvm( 1512): DEX prep '/system/framework/okhttp.jar': unzip in 61ms, rewrite 452ms
+D/dalvikvm( 1512): DexOpt: --- BEGIN 'core-junit.jar' (bootstrap=1) ---
+I/auditd  ( 1924): Starting up
+E/audit_log( 1924): Could not stat audit logfile /data/misc/audit/audit.log: Permission denied
+E/auditd  ( 1924): Failed on audit_log_open
+I/auditd  ( 1924): Exiting
+E/libaudit( 1924): Could net set pid for audit events, error: Protocol error
+D/dalvikvm( 1923): DexOpt: load 17ms, verify+opt 52ms, 143956 bytes
+D/dalvikvm( 1512): DexOpt: --- END 'core-junit.jar' (success) ---
+D/dalvikvm( 1512): DEX prep '/system/framework/core-junit.jar': unzip in 7ms, rewrite 154ms
+D/dalvikvm( 1512): DexOpt: --- BEGIN 'bouncycastle.jar' (bootstrap=1) ---
+D/dalvikvm( 1927): DexOpt: load 110ms, verify+opt 1600ms, 694804 bytes
+D/dalvikvm( 1512): DexOpt: --- END 'bouncycastle.jar' (success) ---
+D/dalvikvm( 1512): DEX prep '/system/framework/bouncycastle.jar': unzip in 322ms, rewrite 2152ms
+D/dalvikvm( 1512): DexOpt: --- BEGIN 'ext.jar' (bootstrap=1) ---
+I/auditd  ( 1929): Starting up
+E/audit_log( 1929): Could not stat audit logfile /data/misc/audit/audit.log: Permission denied
+E/auditd  ( 1929): Failed on audit_log_open
+I/auditd  ( 1929): Exiting
+E/libaudit( 1929): Could net set pid for audit events, error: Protocol error
+D/dalvikvm( 1928): DexOpt: load 165ms, verify+opt 2367ms, 945156 bytes
+D/dalvikvm( 1512): DexOpt: --- END 'ext.jar' (success) ---
+D/dalvikvm( 1512): DEX prep '/system/framework/ext.jar': unzip in 451ms, rewrite 3028ms
+D/dalvikvm( 1512): DexOpt: --- BEGIN 'framework.jar' (bootstrap=1) ---
+I/auditd  ( 1933): Starting up
+E/audit_log( 1933): Could not stat audit logfile /data/misc/audit/audit.log: Permission denied
+E/auditd  ( 1933): Failed on audit_log_open
+I/auditd  ( 1933): Exiting
+E/libaudit( 1933): Could net set pid for audit events, error: Protocol error
+D/dalvikvm( 1932): Note: class Landroid/app/ActivityManagerNative; has 180 unimplemented (abstract) methods
+I/auditd  ( 1936): Starting up
+E/audit_log( 1936): Could not stat audit logfile /data/misc/audit/audit.log: Permission denied
+E/auditd  ( 1936): Failed on audit_log_open
+I/auditd  ( 1936): Exiting
+E/libaudit( 1936): Could net set pid for audit events, error: Protocol error
+I/auditd  ( 1939): Starting up
+E/audit_log( 1939): Could not stat audit logfile /data/misc/audit/audit.log: Permission denied
+E/auditd  ( 1939): Failed on audit_log_open
+I/auditd  ( 1939): Exiting
+E/libaudit( 1939): Could net set pid for audit events, error: Protocol error
+I/auditd  ( 1942): Starting up
+E/audit_log( 1942): Could not stat audit logfile /data/misc/audit/audit.log: Permission denied
+E/auditd  ( 1942): Failed on audit_log_open
+I/auditd  ( 1942): Exiting
+E/libaudit( 1942): Could net set pid for audit events, error: Protocol error
+D/dalvikvm( 1932): DexOpt: load 1546ms, verify+opt 10881ms, 5178572 bytes
+D/dalvikvm( 1512): DexOpt: --- END 'framework.jar' (success) ---
+D/dalvikvm( 1512): DEX prep '/system/framework/framework.jar': unzip in 3256ms, rewrite 15523ms
+D/dalvikvm( 1512): DexOpt: --- BEGIN 'framework2.jar' (bootstrap=1) ---
+D/dalvikvm( 1945): Note: class Landroid/app/ActivityManagerNative; has 180 unimplemented (abstract) methods
+D/dalvikvm( 1945): DexOpt: load 481ms, verify+opt 2166ms, 1917564 bytes
+D/dalvikvm( 1512): DexOpt: --- END 'framework2.jar' (success) ---
+D/dalvikvm( 1512): DEX prep '/system/framework/framework2.jar': unzip in 465ms, rewrite 3247ms
+D/dalvikvm( 1512): DexOpt: --- BEGIN 'telephony-common.jar' (bootstrap=1) ---
+I/auditd  ( 1947): Starting up
+E/audit_log( 1947): Could not stat audit logfile /data/misc/audit/audit.log: Permission denied
+E/auditd  ( 1947): Failed on audit_log_open
+I/auditd  ( 1947): Exiting
+E/libaudit( 1947): Could net set pid for audit events, error: Protocol error
+D/dalvikvm( 1946): Note: class Landroid/app/ActivityManagerNative; has 180 unimplemented (abstract) methods
+D/dalvikvm( 1946): DexOpt: load 330ms, verify+opt 2749ms, 1206948 bytes
+D/dalvikvm( 1512): DexOpt: --- END 'telephony-common.jar' (success) ---
+D/dalvikvm( 1512): DEX prep '/system/framework/telephony-common.jar': unzip in 455ms, rewrite 3594ms
+D/dalvikvm( 1512): DexOpt: --- BEGIN 'voip-common.jar' (bootstrap=1) ---
+D/dalvikvm( 1950): DexOpt: load 29ms, verify+opt 251ms, 350364 bytes
+D/dalvikvm( 1512): DexOpt: --- END 'voip-common.jar' (success) ---
+D/dalvikvm( 1512): DEX prep '/system/framework/voip-common.jar': unzip in 42ms, rewrite 419ms
+D/dalvikvm( 1512): DexOpt: --- BEGIN 'mms-common.jar' (bootstrap=1) ---
+D/dalvikvm( 1951): DexOpt: load 19ms, verify+opt 258ms, 224380 bytes
+D/dalvikvm( 1512): DexOpt: --- END 'mms-common.jar' (success) ---
+D/dalvikvm( 1512): DEX prep '/system/framework/mms-common.jar': unzip in 38ms, rewrite 404ms
+D/dalvikvm( 1512): DexOpt: --- BEGIN 'android.policy.jar' (bootstrap=1) ---
+D/dalvikvm( 1952): Note: class Landroid/app/ActivityManagerNative; has 180 unimplemented (abstract) methods
+I/auditd  ( 1953): Starting up
+E/audit_log( 1953): Could not stat audit logfile /data/misc/audit/audit.log: Permission denied
+E/auditd  ( 1953): Failed on audit_log_open
+I/auditd  ( 1953): Exiting
+E/libaudit( 1953): Could net set pid for audit events, error: Protocol error
+D/dalvikvm( 1952): DexOpt: load 108ms, verify+opt 741ms, 899004 bytes
+D/dalvikvm( 1512): DexOpt: --- END 'android.policy.jar' (success) ---
+D/dalvikvm( 1512): DEX prep '/system/framework/android.policy.jar': unzip in 79ms, rewrite 1034ms
+D/dalvikvm( 1512): DexOpt: --- BEGIN 'services.jar' (bootstrap=1) ---
+D/dalvikvm( 1956): Note: class Landroid/app/ActivityManagerNative; has 180 unimplemented (abstract) methods
+I/auditd  ( 1957): Starting up
+E/audit_log( 1957): Could not stat audit logfile /data/misc/audit/audit.log: Permission denied
+E/auditd  ( 1957): Failed on audit_log_open
+I/auditd  ( 1957): Exiting
+E/libaudit( 1957): Could net set pid for audit events, error: Protocol error
+I/auditd  ( 1960): Starting up
+E/audit_log( 1960): Could not stat audit logfile /data/misc/audit/audit.log: Permission denied
+E/auditd  ( 1960): Failed on audit_log_open
+I/auditd  ( 1960): Exiting
+E/libaudit( 1960): Could net set pid for audit events, error: Protocol error
+D/dalvikvm( 1956): DexOpt: load 373ms, verify+opt 7687ms, 2720164 bytes
+D/dalvikvm( 1512): DexOpt: --- END 'services.jar' (success) ---
+D/dalvikvm( 1512): DEX prep '/system/framework/services.jar': unzip in 1112ms, rewrite 9073ms
+D/dalvikvm( 1512): DexOpt: --- BEGIN 'apache-xml.jar' (bootstrap=1) ---
+D/dalvikvm( 1963): DexOpt: load 201ms, verify+opt 1910ms, 839500 bytes
+D/dalvikvm( 1512): DexOpt: --- END 'apache-xml.jar' (success) ---
+D/dalvikvm( 1512): DEX prep '/system/framework/apache-xml.jar': unzip in 418ms, rewrite 2584ms
+D/dalvikvm( 1512): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 1512): DexOpt: --- BEGIN 'telephony-msim.jar' (bootstrap=1) ---
+D/dalvikvm( 1964): Note: class Landroid/app/ActivityManagerNative; has 180 unimplemented (abstract) methods
+D/dalvikvm( 1964): DexOpt: load 100ms, verify+opt 339ms, 586108 bytes
+D/dalvikvm( 1512): DexOpt: --- END 'telephony-msim.jar' (success) ---
+D/dalvikvm( 1512): DEX prep '/system/framework/telephony-msim.jar': unzip in 42ms, rewrite 598ms
+D/dalvikvm( 1512): Trying to load lib libjavacore.so 0x0
+D/dalvikvm( 1512): Added shared lib libjavacore.so 0x0
+D/dalvikvm( 1512): Trying to load lib libnativehelper.so 0x0
+D/dalvikvm( 1512): Added shared lib libnativehelper.so 0x0
+D/dalvikvm( 1512): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+D/dalvikvm( 1512): Note: class Landroid/app/ActivityManagerNative; has 180 unimplemented (abstract) methods
+I/auditd  ( 1968): Starting up
+E/audit_log( 1968): Could not stat audit logfile /data/misc/audit/audit.log: Permission denied
+E/auditd  ( 1968): Failed on audit_log_open
+I/auditd  ( 1968): Exiting
+E/libaudit( 1968): Could net set pid for audit events, error: Protocol error
+E/memtrack( 1512): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 1512): failed to load memtrack module: -2
+I/SamplingProfilerIntegration( 1512): Profiling disabled.
+I/Zygote  ( 1512): Preloading classes...
+E/cutils-trace( 1512): Error opening trace file: No such file or directory (2)
+D/idmap   ( 1971): error: no read access to /vendor/overlay: No such file or directory
+D/TextLayoutCache( 1512): Using debug level = 0 - Debug Enabled = 0
+I/dalvikvm( 1512): threadid=1: recursive native library load attempt (/system/lib/libmedia_jni.so)
+D/MtpDeviceJNI( 1512): register_android_mtp_MtpDevice
+I/dalvikvm( 1512): threadid=1: recursive native library load attempt (/system/lib/libmedia_jni.so)
+I/dalvikvm( 1512): threadid=1: recursive native library load attempt (/system/lib/libmedia_jni.so)
+I/dalvikvm( 1512): threadid=1: recursive native library load attempt (/system/lib/libmedia_jni.so)
+I/auditd  ( 1972): Starting up
+E/audit_log( 1972): Could not stat audit logfile /data/misc/audit/audit.log: Permission denied
+E/auditd  ( 1972): Failed on audit_log_open
+I/auditd  ( 1972): Exiting
+E/libaudit( 1972): Could net set pid for audit events, error: Protocol error
+I/WebViewFactory( 1512): Provider overridden by property: persist.webview.provider=classic
+W/dalvikvm( 1512): Exception Ljava/lang/UnsatisfiedLinkError; thrown while initializing Landroid/webkit/JniUtil;
+E/webview ( 1512): failed to load JNI libraries
+W/WebViewFactory( 1512): error preloading provider
+W/WebViewFactory( 1512): android.util.AndroidRuntimeException: java.lang.ClassNotFoundException: android.webkit.JniUtil
+W/WebViewFactory( 1512): 	at android.webkit.WebViewClassic$Factory.<init>(WebViewClassic.java:1309)
+W/WebViewFactory( 1512): 	at java.lang.Class.newInstanceImpl(Native Method)
+W/WebViewFactory( 1512): 	at java.lang.Class.newInstance(Class.java:1208)
+W/WebViewFactory( 1512): 	at android.webkit.WebViewFactory$Preloader.<clinit>(WebViewFactory.java:49)
+W/WebViewFactory( 1512): 	at java.lang.Class.classForName(Native Method)
+W/WebViewFactory( 1512): 	at java.lang.Class.forName(Class.java:251)
+W/WebViewFactory( 1512): 	at java.lang.Class.forName(Class.java:216)
+W/WebViewFactory( 1512): 	at com.android.internal.os.ZygoteInit.preloadClasses(ZygoteInit.java:301)
+W/WebViewFactory( 1512): 	at com.android.internal.os.ZygoteInit.preload(ZygoteInit.java:241)
+W/WebViewFactory( 1512): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:574)
+W/WebViewFactory( 1512): 	at dalvik.system.NativeStart.main(Native Method)
+W/WebViewFactory( 1512): Caused by: java.lang.ClassNotFoundException: android.webkit.JniUtil
+W/WebViewFactory( 1512): 	at java.lang.Class.classForName(Native Method)
+W/WebViewFactory( 1512): 	at java.lang.Class.forName(Class.java:251)
+W/WebViewFactory( 1512): 	at java.lang.Class.forName(Class.java:216)
+W/WebViewFactory( 1512): 	at android.webkit.WebViewClassic$Factory.<init>(WebViewClassic.java:1305)
+W/WebViewFactory( 1512): 	... 10 more
+W/WebViewFactory( 1512): Caused by: java.lang.UnsatisfiedLinkError: Library webcore not found; tried [/vendor/lib/libwebcore.so, /system/lib/libwebcore.so]
+W/WebViewFactory( 1512): 	at java.lang.Runtime.loadLibrary(Runtime.java:388)
+W/WebViewFactory( 1512): 	at java.lang.System.loadLibrary(System.java:526)
+W/WebViewFactory( 1512): 	at android.webkit.JniUtil.<clinit>(JniUtil.java:31)
+W/WebViewFactory( 1512): 	... 14 more
+W/Zygote  ( 1512): Class not found for preloading: java.lang.UnsafeByteSequence
+I/System  ( 1512): Loaded time zone names for "" in 348ms (317ms in ICU)
+I/System  ( 1512): Loaded time zone names for "en_US" in 247ms (209ms in ICU)
+I/Zygote  ( 1512): ...preloaded 2815 classes in 8947ms.
+I/auditd  ( 1975): Starting up
+E/audit_log( 1975): Could not stat audit logfile /data/misc/audit/audit.log: Permission denied
+E/auditd  ( 1975): Failed on audit_log_open
+I/auditd  ( 1975): Exiting
+E/libaudit( 1975): Could net set pid for audit events, error: Protocol error
+D/libEGL  ( 1512): loaded /system/lib/egl/libEGL_adreno200.so
+D/libEGL  ( 1512): loaded /system/lib/egl/libGLESv1_CM_adreno200.so
+D/libEGL  ( 1512): loaded /system/lib/egl/libGLESv2_adreno200.so
+I/dalvikvm( 1512): System server process 1978 has been created
+W/dalvikvm( 1978): PR_CAPBSET_DROP 0 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1978): PR_CAPBSET_DROP 1 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1978): PR_CAPBSET_DROP 2 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1978): PR_CAPBSET_DROP 3 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1978): PR_CAPBSET_DROP 4 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1978): PR_CAPBSET_DROP 5 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1978): PR_CAPBSET_DROP 6 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1978): PR_CAPBSET_DROP 7 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1978): PR_CAPBSET_DROP 8 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1978): PR_CAPBSET_DROP 9 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1978): PR_CAPBSET_DROP 10 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1978): PR_CAPBSET_DROP 11 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1978): PR_CAPBSET_DROP 12 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1978): PR_CAPBSET_DROP 13 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1978): PR_CAPBSET_DROP 14 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1978): PR_CAPBSET_DROP 15 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1978): PR_CAPBSET_DROP 16 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1978): PR_CAPBSET_DROP 17 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1978): PR_CAPBSET_DROP 18 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1978): PR_CAPBSET_DROP 19 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1978): PR_CAPBSET_DROP 20 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1978): PR_CAPBSET_DROP 21 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1978): PR_CAPBSET_DROP 22 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1978): PR_CAPBSET_DROP 23 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1978): PR_CAPBSET_DROP 24 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1978): PR_CAPBSET_DROP 25 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1978): PR_CAPBSET_DROP 26 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1978): PR_CAPBSET_DROP 27 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1978): PR_CAPBSET_DROP 28 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1978): PR_CAPBSET_DROP 29 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1978): PR_CAPBSET_DROP 30 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1978): PR_CAPBSET_DROP 31 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1978): PR_CAPBSET_DROP 32 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1978): PR_CAPBSET_DROP 33 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1978): PR_CAPBSET_DROP 34 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+W/dalvikvm( 1978): PR_CAPBSET_DROP 35 failed: Invalid argument. Please make sure your kernel is compiled with file capabilities support enabled.
+I/Zygote  ( 1512): Accepting command socket connections
+D/SensorService( 1978): nuSensorService starting...
+I/SystemServer( 1978): Entered the Android system server!
+I/AKMD2   ( 1518): akmd2 : Compass Opened.
+E/AKMD2   ( 1518): akmd2 : Setting file can't be read. Default value is used.
+I/SensorService( 1978): BMA150 3-axis Accelerometer
+I/SensorService( 1978): AK8975 3-axis Magnetic field sensor
+I/SensorService( 1978): AK8975 Orientation sensor
+I/SensorService( 1978): APDS9700 Proximity sensor
+I/SensorService( 1978): MSM Light sensor
+D/SensorService( 1978): Max socket buffer size 112640
+I/SystemServer( 1978): Waiting for installd to be ready.
+I/SystemServer( 1978): Enabled StrictMode logging for WM Looper
+I/Installer( 1978): connecting...
+I/installd( 1515): new connection
+D/SensorService( 1978): nuSensorService thread starting...
+E/Klzz PowerHAL( 1978): Error opening /sys/devices/system/cpu/cpufreq/ondemand/sampling_rate: No such file or directory
+I/SystemServer( 1978): Power Manager
+I/SystemServer( 1978): Activity Manager
+I/ActivityManager( 1978): Memory class: 24
+I/AKMD2   ( 1518): akmd2 : Compass Closed.
+I/AppOps  ( 1978): No existing app ops /data/system/appops.xml; starting empty
+I/UiThread( 1978): Enabled StrictMode logging for UI thread
+I/IntentFirewall( 1978): Read new rules (A:0 B:0 S:0)
+I/ActivityManager( 1978): Enabled StrictMode logging for AThread's Looper
+I/SystemServer( 1978): Display Manager
+I/SystemServer( 1978): Telephony Registry
+I/DisplayManagerService( 1978): Display device added: DisplayDeviceInfo{"Built-in Screen": 320 x 480, 60.000004 fps, density 160, 159.37254 x 160.42105 dpi, touch INTERNAL, rotation 0, type BUILT_IN, FLAG_DEFAULT_DISPLAY, FLAG_ROTATES_WITH_CONTENT, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS}
+I/SystemServer( 1978): Scheduling Policy
+I/SystemServer( 1978): Package Manager
+W/FileUtils( 1978): Failed to chmod(/data/system/packages.list): libcore.io.ErrnoException: chmod failed: ENOENT (No such file or directory)
+D/SELinuxMMAC( 1978): Couldn't find install policy /data/security/mac_permissions.xml
+D/SELinuxMMAC( 1978): Using install policy file /system/etc/security/mac_permissions.xml
+I/PackageManager( 1978): No settings file; creating initial state
+W/PackageManager( 1978): Library not found: /system/framework/com.sonyericsson.suquashi.jar
+D/dalvikvm( 2010): DexOpt: sleeping on flock(/data/dalvik-cache/system@framework@telephony-common.jar@classes.dex)
+D/dalvikvm( 2010): DexOpt: sleeping on flock(/data/dalvik-cache/system@framework@mms-common.jar@classes.dex)
+D/dalvikvm( 2009): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2010): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2010): DexOpt: load 17ms, verify+opt 56ms, 121628 bytes
+D/dalvikvm( 2009): DexOpt: load 49ms, verify+opt 184ms, 136028 bytes
+D/dalvikvm( 2012): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2012): DexOpt: load 44ms, verify+opt 43ms, 105388 bytes
+D/dalvikvm( 2014): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2016): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2016): DexOpt: load 62ms, verify+opt 48ms, 154580 bytes
+D/dalvikvm( 2018): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2018): DexOpt: load 49ms, verify+opt 2ms, 83452 bytes
+D/dalvikvm( 2020): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2014): DexOpt: load 150ms, verify+opt 578ms, 536356 bytes
+D/dalvikvm( 2020): DexOpt: load 27ms, verify+opt 35ms, 143972 bytes
+D/dalvikvm( 2022): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2022): DexOpt: load 17ms, verify+opt 10ms, 103924 bytes
+D/dalvikvm( 2026): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2028): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2026): DexOpt: load 39ms, verify+opt 28ms, 121972 bytes
+D/dalvikvm( 2030): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2030): DexOpt: load 30ms, verify+opt 37ms, 132524 bytes
+D/dalvikvm( 2028): Note: class Landroid/app/ActivityManagerNative; has 180 unimplemented (abstract) methods
+D/dalvikvm( 2032): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2032): Note: class Landroid/app/ActivityManagerNative; has 180 unimplemented (abstract) methods
+D/dalvikvm( 2032): DexOpt: load 33ms, verify+opt 52ms, 141324 bytes
+D/dalvikvm( 2028): DexOpt: load 29ms, verify+opt 624ms, 484796 bytes
+D/dalvikvm( 2034): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+I/auditd  ( 2037): Starting up
+D/dalvikvm( 2034): DexOpt: load 23ms, verify+opt 68ms, 114860 bytes
+E/audit_log( 2037): Could not stat audit logfile /data/misc/audit/audit.log: Permission denied
+E/auditd  ( 2037): Failed on audit_log_open
+I/auditd  ( 2037): Exiting
+E/libaudit( 2037): Could net set pid for audit events, error: Protocol error
+D/dalvikvm( 2036): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2036): Note: class Landroid/app/ActivityManagerNative; has 180 unimplemented (abstract) methods
+D/dalvikvm( 2041): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2036): DexOpt: load 19ms, verify+opt 215ms, 231124 bytes
+D/dalvikvm( 2041): Note: class Landroid/app/ActivityManagerNative; has 180 unimplemented (abstract) methods
+D/dalvikvm( 2043): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2043): DexOpt: load 42ms, verify+opt 47ms, 142036 bytes
+D/dalvikvm( 2041): DexOpt: load 38ms, verify+opt 431ms, 378988 bytes
+D/dalvikvm( 2045): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2045): DexOpt: load 20ms, verify+opt 39ms, 131188 bytes
+D/dalvikvm( 2047): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2047): DexOpt: load 33ms, verify+opt 31ms, 107668 bytes
+D/dalvikvm( 2049): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2049): Note: class Landroid/app/ActivityManagerNative; has 180 unimplemented (abstract) methods
+D/dalvikvm( 2049): DexOpt: load 43ms, verify+opt 86ms, 160012 bytes
+D/dalvikvm( 2051): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2051): DexOpt: load 32ms, verify+opt 31ms, 111220 bytes
+D/dalvikvm( 2053): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2053): DexOpt: load 15ms, verify+opt 64ms, 113684 bytes
+D/dalvikvm( 2055): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2055): Note: class Landroid/app/ActivityManagerNative; has 180 unimplemented (abstract) methods
+D/dalvikvm( 2055): DexOpt: load 19ms, verify+opt 148ms, 225020 bytes
+D/PackageManager( 1978): No files in app dir /vendor/overlay
+I/PackageManager( 1978): /system/framework/framework-res.apk changed; collecting certs
+I/auditd  ( 2057): Starting up
+E/audit_log( 2057): Could not stat audit logfile /data/misc/audit/audit.log: Permission denied
+E/auditd  ( 2057): Failed on audit_log_open
+I/auditd  ( 2057): Exiting
+E/libaudit( 2057): Could net set pid for audit events, error: Protocol error
+I/PackageManager( 1978): /system/priv-app/WallpaperCropper.apk changed; collecting certs
+I/PackageManager( 1978): /system/priv-app/VpnDialogs.apk changed; collecting certs
+I/PackageManager( 1978): /system/priv-app/VoiceDialer.apk changed; collecting certs
+I/PackageManager( 1978): /system/priv-app/Trebuchet.apk changed; collecting certs
+I/PackageManager( 1978): /system/priv-app/ThemeManager.apk changed; collecting certs
+I/PackageManager( 1978): New shared user com.tmobile.thememanager: id=10003
+I/PackageManager( 1978): /system/priv-app/TeleService.apk changed; collecting certs
+I/PackageManager( 1978): /system/priv-app/SystemUI.apk changed; collecting certs
+I/PackageManager( 1978): /system/priv-app/Shell.apk changed; collecting certs
+I/PackageManager( 1978): /system/priv-app/SharedStorageBackup.apk changed; collecting certs
+I/PackageManager( 1978): /system/priv-app/SettingsProvider.apk changed; collecting certs
+I/PackageManager( 1978): /system/priv-app/Settings.apk changed; collecting certs
+I/PackageManager( 1978): New shared user android.uid.systemui: id=10006
+I/PackageManager( 1978): /system/priv-app/ProxyHandler.apk changed; collecting certs
+I/PackageManager( 1978): /system/priv-app/PicoTts.apk changed; collecting certs
+I/PackageManager( 1978): /system/priv-app/OneTimeInitializer.apk changed; collecting certs
+I/auditd  ( 2074): Starting up
+E/audit_log( 2074): Could not stat audit logfile /data/misc/audit/audit.log: Permission denied
+E/auditd  ( 2074): Failed on audit_log_open
+I/auditd  ( 2074): Exiting
+E/libaudit( 2074): Could net set pid for audit events, error: Protocol error
+I/PackageManager( 1978): /system/priv-app/Mms.apk changed; collecting certs
+I/PackageManager( 1978): /system/priv-app/MediaProvider.apk changed; collecting certs
+I/PackageManager( 1978): New shared user android.media: id=10011
+I/PackageManager( 1978): /system/priv-app/Keyguard.apk changed; collecting certs
+I/PackageManager( 1978): /system/priv-app/InputDevices.apk changed; collecting certs
+I/PackageManager( 1978): /system/priv-app/FusedLocation.apk changed; collecting certs
+I/PackageManager( 1978): /system/priv-app/ExternalStorageProvider.apk changed; collecting certs
+I/PackageManager( 1978): /system/priv-app/DownloadProvider.apk changed; collecting certs
+W/PackageParser( 1978): No actions in intent filter at /system/priv-app/Dialer.apk Binary XML file line #189
+I/PackageManager( 1978): /system/priv-app/Dialer.apk changed; collecting certs
+I/PackageManager( 1978): /system/priv-app/DefaultContainerService.apk changed; collecting certs
+I/PackageManager( 1978): /system/priv-app/ContactsProvider.apk changed; collecting certs
+I/PackageManager( 1978): New shared user android.uid.shared: id=10014
+W/PackageParser( 1978): No actions in intent filter at /system/priv-app/Contacts.apk Binary XML file line #375
+I/PackageManager( 1978): /system/priv-app/Contacts.apk changed; collecting certs
+I/PackageManager( 1978): New shared user com.android.dialer: id=10015
+I/PackageManager( 1978): /system/priv-app/CalendarProvider.apk changed; collecting certs
+I/PackageManager( 1978): New shared user android.uid.calendar: id=10016
+I/PackageManager( 1978): /system/priv-app/CMUpdater.apk changed; collecting certs
+I/PackageManager( 1978): /system/priv-app/BackupRestoreConfirmation.apk changed; collecting certs
+I/PackageManager( 1978): /system/app/Xperience.apk changed; collecting certs
+I/PackageManager( 1978): /system/app/WhisperPush.apk changed; collecting certs
+I/PackageManager( 1978): /system/app/WAPPushManager.apk changed; collecting certs
+I/PackageManager( 1978): /system/app/UserDictionaryProvider.apk changed; collecting certs
+I/PackageManager( 1978): /system/app/ThemeChooser.apk changed; collecting certs
+I/PackageManager( 1978): /system/app/Term.apk changed; collecting certs
+I/auditd  ( 2099): Starting up
+E/audit_log( 2099): Could not stat audit logfile /data/misc/audit/audit.log: Permission denied
+E/auditd  ( 2099): Failed on audit_log_open
+I/auditd  ( 2099): Exiting
+E/libaudit( 2099): Could net set pid for audit events, error: Protocol error
+I/PackageManager( 1978): /system/app/TelephonyProvider.apk changed; collecting certs
+I/PackageManager( 1978): /system/app/SystemConnector.apk changed; collecting certs
+I/PackageManager( 1978): /system/app/Stk.apk changed; collecting certs
+I/PackageManager( 1978): /system/app/SoundRecorder.apk changed; collecting certs
+I/PackageManager( 1978): /system/app/Provision.apk changed; collecting certs
+I/PackageManager( 1978): /system/app/PrintSpooler.apk changed; collecting certs
+I/PackageManager( 1978): /system/app/PackageInstaller.apk changed; collecting certs
+I/PackageManager( 1978): /system/app/PacProcessor.apk changed; collecting certs
+W/PackageParser( 1978): Unknown element under <application>: reciever at /system/app/LockClock.apk Binary XML file line #104
+I/PackageManager( 1978): /system/app/LockClock.apk changed; collecting certs
+I/PackageManager( 1978): /system/app/LiveWallpapersPicker.apk changed; collecting certs
+I/PackageManager( 1978): /system/app/LiveWallpapers.apk changed; collecting certs
+I/PackageManager( 1978): /system/app/LatinIME.apk changed; collecting certs
+I/PackageManager( 1978): /system/app/KeyChain.apk changed; collecting certs
+I/PackageManager( 1978): /system/app/InCallUI.apk changed; collecting certs
+I/PackageManager( 1978): /system/app/HwaSettings.apk changed; collecting certs
+I/PackageManager( 1978): /system/app/HTMLViewer.apk changed; collecting certs
+W/PackageParser( 1978): Unknown element under <application>: permission at /system/app/Gallery2.apk Binary XML file line #252
+W/PackageParser( 1978): Unknown element under <application>: permission at /system/app/Gallery2.apk Binary XML file line #255
+I/PackageManager( 1978): /system/app/Gallery2.apk changed; collecting certs
+I/PackageManager( 1978): /system/app/Exchange2.apk changed; collecting certs
+I/PackageManager( 1978): /system/app/DownloadProviderUi.apk changed; collecting certs
+I/PackageManager( 1978): /system/app/DocumentsUI.apk changed; collecting certs
+I/PackageManager( 1978): /system/app/Development.apk changed; collecting certs
+I/PackageManager( 1978): /system/app/DeskClock.apk changed; collecting certs
+I/PackageManager( 1978): /system/app/DSPManager.apk changed; collecting certs
+I/auditd  ( 2125): Starting up
+E/audit_log( 2125): Could not stat audit logfile /data/misc/audit/audit.log: Permission denied
+E/auditd  ( 2125): Failed on audit_log_open
+I/auditd  ( 2125): Exiting
+E/libaudit( 2125): Could net set pid for audit events, error: Protocol error
+I/PackageManager( 1978): /system/app/CertInstaller.apk changed; collecting certs
+I/PackageManager( 1978): /system/app/CellBroadcastReceiver.apk changed; collecting certs
+W/ResourceType( 1978): Failure getting entry for 0x7f04000f (t=3 e=15) in package 0 (error -75)
+W/ResourceType( 1978): Failure getting entry for 0x7f04000f (t=3 e=15) in package 0 (error -75)
+I/PackageManager( 1978): /system/app/Camera2.apk changed; collecting certs
+I/PackageManager( 1978): /system/app/Calendar.apk changed; collecting certs
+I/PackageManager( 1978): /system/app/Calculator.apk changed; collecting certs
+I/PackageManager( 1978): /system/app/CMFileManager.apk changed; collecting certs
+W/PackageParser( 1978): No actions in intent filter at /system/app/CMFileManager.apk Binary XML file line #137
+I/PackageManager( 1978): /system/app/Browser.apk changed; collecting certs
+W/PackageParser( 1978): Unknown element under <application>: uses-feature at /system/app/BluetoothExt.apk Binary XML file line #55
+W/PackageParser( 1978): No actions in intent filter at /system/app/BluetoothExt.apk Binary XML file line #82
+W/PackageParser( 1978): No actions in intent filter at /system/app/BluetoothExt.apk Binary XML file line #106
+I/PackageManager( 1978): /system/app/BluetoothExt.apk changed; collecting certs
+W/PackageParser( 1978): No actions in intent filter at /system/app/BluetoothExt.apk Binary XML file line #159
+W/PackageParser( 1978): No actions in intent filter at /system/app/Bluetooth.apk Binary XML file line #227
+I/PackageManager( 1978): /system/app/Bluetooth.apk changed; collecting certs
+I/PackageManager( 1978): /system/app/BasicDreams.apk changed; collecting certs
+I/PackageManager( 1978): /system/app/Apollo.apk changed; collecting certs
+I/PackageManager( 1978): /system/app/AntHalService.apk changed; collecting certs
+D/PackageManager( 1978): No files in app dir /vendor/app
+W/PackageManager( 1978): Package com.android.gallery3d desires unavailable shared library com.google.android.media.effects; ignoring!
+I/PackageManager( 1978): Time to scan packages: 26.58 seconds
+W/PackageManager( 1978): Not granting permission android.permission.WRITE_MEDIA_STORAGE to package com.android.soundrecorder (protectionLevel=18 flags=0x8be45)
+W/PackageManager( 1978): Unknown permission com.google.android.gallery3d.permission.GALLERY_PROVIDER in package com.android.bluetooth
+W/PackageManager( 1978): Unknown permission com.android.email.permission.ACCESS_PROVIDER in package com.android.bluetooth
+W/PackageManager( 1978): Unknown permission com.android.email.permission.READ_ATTACHMENT in package com.android.bluetooth
+W/PackageManager( 1978): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.providers.calendar
+W/PackageManager( 1978): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.cl in package com.android.providers.calendar
+W/PackageManager( 1978): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.mail in package com.android.calendar
+W/PackageManager( 1978): Not granting permission android.permission.ACCESS_DOWNLOAD_MANAGER to package com.android.browser (protectionLevel=18 flags=0x49be45)
+W/PackageManager( 1978): Not granting permission android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS to package com.android.browser (protectionLevel=2 flags=0x49be45)
+W/PackageManager( 1978): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.android.onetimeinitializer
+W/PackageManager( 1978): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.android.onetimeinitializer
+W/PackageManager( 1978): Not granting permission android.permission.BIND_WALLPAPER to package com.android.camera2 (protectionLevel=18 flags=0x58bc45)
+W/PackageManager( 1978): Unknown permission android.permission.INSTALL_DRM in package com.android.mms
+W/PackageManager( 1978): Unknown permission com.cyanogenmod.filemanager.permissions.READ_THEME in package com.cyanogenmod.filemanager
+W/PackageManager( 1978): Unknown permission android.permission.MMS_PUSH in package org.codeaurora.bluetooth
+W/PackageManager( 1978): Unknown permission com.android.email.permission.ACCESS_PROVIDER in package org.codeaurora.bluetooth
+W/PackageManager( 1978): Unknown permission com.android.email.permission.READ_ATTACHMENT in package org.codeaurora.bluetooth
+W/PackageManager( 1978): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.settings
+W/PackageManager( 1978): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.android.settings
+W/PackageManager( 1978): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.android.settings
+W/PackageManager( 1978): Unknown permission android.permission.CHANGE_PRIVACY_GUARD_STATE in package com.android.settings
+W/PackageManager( 1978): Unknown permission com.android.launcher.permission.READ_SETTINGS in package com.cyanogenmod.trebuchet
+W/PackageManager( 1978): Unknown permission com.android.launcher.permission.WRITE_SETTINGS in package com.cyanogenmod.trebuchet
+W/PackageManager( 1978): Unknown permission com.android.email.permission.READ_ATTACHMENT in package com.android.exchange
+W/PackageManager( 1978): Unknown permission com.android.email.permission.ACCESS_PROVIDER in package com.android.exchange
+W/PackageManager( 1978): Unknown permission com.google.android.c2dm.permission.RECEIVE in package org.whispersystems.whisperpush
+W/PackageManager( 1978): Unknown permission com.google.android.googleapps.permission.ACCESS_GOOGLE_PASSWORD in package com.android.development
+W/PackageManager( 1978): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH in package com.android.development
+W/PackageManager( 1978): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.ALL_SERVICES in package com.android.development
+W/PackageManager( 1978): Unknown permission com.google.android.googleapps.permission.GOOGLE_AUTH.YouTubeUser in package com.android.development
+W/PackageManager( 1978): Not granting permission android.permission.DEVICE_POWER to package com.android.deskclock (protectionLevel=2 flags=0x48be45)
+W/PackageManager( 1978): Unknown permission com.android.deskclock.worldclock.permissions.WRITE_DATABASE in package com.android.deskclock
+V/PackageManager( 1978): Disabling com.google.android.gsf/com.google.android.gsf.update.SystemUpdateActivity
+W/PackageManager( 1978): Unable to disable com.google.android.gsf/com.google.android.gsf.update.SystemUpdateActivity
+V/PackageManager( 1978): Disabling com.google.android.gsf/com.google.android.gsf.update.SystemUpdateService
+W/PackageManager( 1978): Unable to disable com.google.android.gsf/com.google.android.gsf.update.SystemUpdateService
+V/PackageManager( 1978): Disabling com.google.android.gsf/com.google.android.gsf.update.SystemUpdateService$Receiver
+W/PackageManager( 1978): Unable to disable com.google.android.gsf/com.google.android.gsf.update.SystemUpdateService$Receiver
+E/SELinuxMMAC( 1978): Error opening /data/system/seapp_hash. Assuming first boot.
+E/SELinuxMMAC( 1978): java.io.FileNotFoundException: /data/system/seapp_hash: open failed: ENOENT (No such file or directory)
+E/SELinuxMMAC( 1978): 	at libcore.io.IoBridge.open(IoBridge.java:409)
+E/SELinuxMMAC( 1978): 	at libcore.io.IoUtils$FileReader.<init>(IoUtils.java:207)
+E/SELinuxMMAC( 1978): 	at libcore.io.IoUtils.readFileAsByteArray(IoUtils.java:107)
+E/SELinuxMMAC( 1978): 	at com.android.server.pm.SELinuxMMAC.shouldRestorecon(SELinuxMMAC.java:427)
+E/SELinuxMMAC( 1978): 	at com.android.server.pm.PackageManagerService.<init>(PackageManagerService.java:1608)
+E/SELinuxMMAC( 1978): 	at com.android.server.pm.PackageManagerService.main(PackageManagerService.java:1124)
+E/SELinuxMMAC( 1978): 	at com.android.server.ServerThread.initAndLoop(SystemServer.java:308)
+E/SELinuxMMAC( 1978): 	at com.android.server.SystemServer.main(SystemServer.java:1406)
+E/SELinuxMMAC( 1978): 	at java.lang.reflect.Method.invokeNative(Native Method)
+E/SELinuxMMAC( 1978): 	at java.lang.reflect.Method.invoke(Method.java:515)
+E/SELinuxMMAC( 1978): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:789)
+E/SELinuxMMAC( 1978): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:605)
+E/SELinuxMMAC( 1978): 	at dalvik.system.NativeStart.main(Native Method)
+E/SELinuxMMAC( 1978): Caused by: libcore.io.ErrnoException: open failed: ENOENT (No such file or directory)
+E/SELinuxMMAC( 1978): 	at libcore.io.Posix.open(Native Method)
+E/SELinuxMMAC( 1978): 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:110)
+E/SELinuxMMAC( 1978): 	at libcore.io.IoBridge.open(IoBridge.java:393)
+E/SELinuxMMAC( 1978): 	... 12 more
+I/PackageManager( 1978): Relabeling of /data/data and /data/user issued.
+I/SystemServer( 1978): Entropy Mixer
+W/EntropyMixer( 1978): No existing entropy file -- first boot?
+I/EntropyMixer( 1978): Writing entropy...
+I/SystemServer( 1978): User Service
+I/SystemServer( 1978): Account Manager
+I/SystemServer( 1978): Content Manager
+I/SystemServer( 1978): System Content Providers
+D/dalvikvm( 1978): DexOpt: --- BEGIN 'SettingsProvider.apk' (bootstrap=0) ---
+I/auditd  ( 2145): Starting up
+E/audit_log( 2145): Could not stat audit logfile /data/misc/audit/audit.log: Permission denied
+E/auditd  ( 2145): Failed on audit_log_open
+I/auditd  ( 2145): Exiting
+E/libaudit( 2145): Could net set pid for audit events, error: Protocol error
+D/dalvikvm( 2144): Note: class Landroid/app/ActivityManagerNative; has 180 unimplemented (abstract) methods
+D/dalvikvm( 2144): DexOpt: load 41ms, verify+opt 365ms, 578620 bytes
+D/dalvikvm( 1978): DexOpt: --- END 'SettingsProvider.apk' (success) ---
+D/dalvikvm( 1978): DEX prep '/system/priv-app/SettingsProvider.apk': unzip in 23ms, rewrite 567ms
+I/SyncManager( 1978): No initial accounts
+I/SyncManager( 1978): No initial status
+W/SyncManagerFile( 1978): Error reading pending data.
+W/SyncManagerFile( 1978): java.io.FileNotFoundException: /data/system/sync/pending.xml: open failed: ENOENT (No such file or directory)
+W/SyncManagerFile( 1978): 	at libcore.io.IoBridge.open(IoBridge.java:409)
+W/SyncManagerFile( 1978): 	at java.io.FileInputStream.<init>(FileInputStream.java:78)
+W/SyncManagerFile( 1978): 	at android.util.AtomicFile.openRead(AtomicFile.java:199)
+W/SyncManagerFile( 1978): 	at com.android.server.content.SyncStorageEngine.readPendingOperationsLocked(SyncStorageEngine.java:2292)
+W/SyncManagerFile( 1978): 	at com.android.server.content.SyncStorageEngine.<init>(SyncStorageEngine.java:434)
+W/SyncManagerFile( 1978): 	at com.android.server.content.SyncStorageEngine.init(SyncStorageEngine.java:454)
+W/SyncManagerFile( 1978): 	at com.android.server.content.SyncManager.<init>(SyncManager.java:389)
+W/SyncManagerFile( 1978): 	at com.android.server.content.ContentService.getSyncManager(ContentService.java:75)
+W/SyncManagerFile( 1978): 	at com.android.server.content.ContentService.notifyChange(ContentService.java:283)
+W/SyncManagerFile( 1978): 	at android.content.ContentResolver.notifyChange(ContentResolver.java:1621)
+W/SyncManagerFile( 1978): 	at com.android.providers.settings.SettingsProvider.sendNotify(SettingsProvider.java:262)
+W/SyncManagerFile( 1978): 	at com.android.providers.settings.SettingsProvider.insertForUser(SettingsProvider.java:941)
+W/SyncManagerFile( 1978): 	at com.android.providers.settings.SettingsProvider.ensureAndroidIdIsSet(SettingsProvider.java:496)
+W/SyncManagerFile( 1978): 	at com.android.providers.settings.SettingsProvider.establishDbTracking(SettingsProvider.java:409)
+W/SyncManagerFile( 1978): 	at com.android.providers.settings.SettingsProvider.onCreate(SettingsProvider.java:335)
+W/SyncManagerFile( 1978): 	at android.content.ContentProvider.attachInfo(ContentProvider.java:1591)
+W/SyncManagerFile( 1978): 	at android.content.ContentProvider.attachInfo(ContentProvider.java:1562)
+W/SyncManagerFile( 1978): 	at android.app.ActivityThread.installProvider(ActivityThread.java:4955)
+W/SyncManagerFile( 1978): 	at android.app.ActivityThread.installContentProviders(ActivityThread.java:4550)
+W/SyncManagerFile( 1978): 	at android.app.ActivityThread.installSystemProviders(ActivityThread.java:5110)
+W/SyncManagerFile( 1978): 	at com.android.server.am.ActivityManagerService.installSystemProviders(ActivityManagerService.java:8211)
+W/SyncManagerFile( 1978): 	at com.android.server.ServerThread.initAndLoop(SystemServer.java:342)
+W/SyncManagerFile( 1978): 	at com.android.server.SystemServer.main(SystemServer.java:1406)
+W/SyncManagerFile( 1978): 	at java.lang.reflect.Method.invokeNative(Native Method)
+W/SyncManagerFile( 1978): 	at java.lang.reflect.Method.invoke(Method.java:515)
+W/SyncManagerFile( 1978): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:789)
+W/SyncManagerFile( 1978): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:605)
+W/SyncManagerFile( 1978): 	at dalvik.system.NativeStart.main(Native Method)
+W/SyncManagerFile( 1978): Caused by: libcore.io.ErrnoException: open failed: ENOENT (No such file or directory)
+W/SyncManagerFile( 1978): 	at libcore.io.Posix.open(Native Method)
+W/SyncManagerFile( 1978): 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:110)
+W/SyncManagerFile( 1978): 	at libcore.io.IoBridge.open(IoBridge.java:393)
+W/SyncManagerFile( 1978): 	... 27 more
+I/SyncManager( 1978): No initial statistics
+D/SettingsProvider( 1978): Generated and saved new ANDROID_ID [d499f365e7dc4d57] for user 0
+I/SystemServer( 1978): Lights Service
+I/SystemServer( 1978): Vibrator Service
+I/SystemServer( 1978): Consumer IR Service
+E/ConsumerIrService( 1978): Can't open consumer IR HW Module, error: -2
+I/libsuspend( 1978): Selected early suspend
+I/libsuspend( 1978): Starting early suspend unblocker thread
+E/Klzz PowerHAL( 1978): Error opening /sys/devices/system/cpu/cpufreq/ondemand/sampling_rate: No such file or directory
+D/SurfaceFlinger( 1511): Screen acquired, type=0 flinger=0xf450
+D/SurfaceFlinger( 1511):  screen was previously acquired
+I/SystemServer( 1978): Alarm Manager
+I/SystemServer( 1978): Init Watchdog
+I/SystemServer( 1978): Input Manager
+I/InputManager( 1978): Initializing input manager, mUseDevInputEventForAudioJack=false
+I/SystemServer( 1978): Window Manager
+I/WindowManager( 1978): No existing display settings /data/system/display_settings.xml; starting empty
+D/PermissionCache( 1511): checking android.permission.ACCESS_SURFACE_FLINGER for uid=1000 => granted (576 us)
+I/AKMD2   ( 1518): akmd2 : Compass Opened.
+I/WindowManager( 1978): No keyguard interface!
+I/InputManager( 1978): Starting input manager
+D/BluetoothManagerService( 1978): Loading stored name and address
+D/BluetoothManagerService( 1978): Stored bluetooth Name=null,Address=null
+I/SystemServer( 1978): Bluetooth Manager Service
+I/SystemServer( 1978): Input Method Service
+D/EventHub( 1978): No input device configuration file found for device 'compass'.
+D/EventHub( 1978): No input device configuration file found for device 'shakira_keypad'.
+W/EventHub( 1978): Unable to disable kernel key repeat for /dev/input/event3: Function not implemented
+I/EventHub( 1978): New device: id=2, fd=101, path='/dev/input/event3', name='shakira_keypad', classes=0x1, configuration='', keyLayout='/system/usr/keylayout/shakira_keypad.kl', keyCharacterMap='/system/usr/keychars/Generic.kcm', builtinKeyboard=false, usingSuspendBlockIoctl=false, usingClockIoctl=false
+W/EventHub( 1978): Unable to disable kernel key repeat for /dev/input/event2: Function not implemented
+I/EventHub( 1978): New device: id=3, fd=102, path='/dev/input/event2', name='synaptics-rmi-touchscreen', classes=0x155, configuration='/system/usr/idc/synaptics-rmi-touchscreen.idc', keyLayout='/system/usr/keylayout/Generic.kl', keyCharacterMap='/system/usr/keychars/Generic.kcm', builtinKeyboard=false, usingSuspendBlockIoctl=false, usingClockIoctl=false
+D/EventHub( 1978): No input device configuration file found for device 'lightsensor'.
+D/EventHub( 1978): No input device configuration file found for device 'proximity'.
+I/InputReader( 1978): Device added: id=-1, name='Virtual', sources=0x00000301
+W/InputReader( 1978): Invalid value for touch.size.calibration: 'normalized'
+I/InputReader( 1978):   Touch device 'synaptics-rmi-touchscreen' could not query the properties of its associated display.  The device will be inoperable until the display size becomes available.
+I/InputReader( 1978): Device added: id=3, name='synaptics-rmi-touchscreen', sources=0x01001513
+I/InputReader( 1978): Device added: id=2, name='shakira_keypad', sources=0x00000101
+I/InputMethodUtils( 1978): Adding: com.android.inputmethod.latin/.LatinIME
+W/InputMethodManagerService( 1978): No IME selected. Choose the most applicable IME.
+W/SystemServer( 1978): ***********************************************
+F/SystemServer( 1978): BOOT FAILURE starting Input Manager Service
+F/SystemServer( 1978): java.lang.NullPointerException
+F/SystemServer( 1978): 	at com.android.server.InputMethodManagerService.resetDefaultImeLocked(InputMethodManagerService.java:747)
+F/SystemServer( 1978): 	at com.android.server.InputMethodManagerService.<init>(InputMethodManagerService.java:706)
+F/SystemServer( 1978): 	at com.android.server.ServerThread.initAndLoop(SystemServer.java:442)
+F/SystemServer( 1978): 	at com.android.server.SystemServer.main(SystemServer.java:1406)
+F/SystemServer( 1978): 	at java.lang.reflect.Method.invokeNative(Native Method)
+F/SystemServer( 1978): 	at java.lang.reflect.Method.invoke(Method.java:515)
+F/SystemServer( 1978): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:789)
+F/SystemServer( 1978): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:605)
+F/SystemServer( 1978): 	at dalvik.system.NativeStart.main(Native Method)
+I/SystemServer( 1978): Accessibility Manager
+I/ActivityManager( 1978): Config changes=1df8 {1.0 ?mcc?mnc en_US ldltr sw320dp w320dp h480dp 160dpi nrml port ?uimode ?night -touch -keyb/h/h -nav/h s.2 themeResource=null}
+I/InputReader( 1978): Reconfiguring input devices.  changes=0x00000004
+I/InputReader( 1978): Device reconfigured: id=3, name='synaptics-rmi-touchscreen', size 320x480, orientation 0, mode 1, display id 0
+I/InputReader( 1978): Reconfiguring input devices.  changes=0x00000004
+I/ActivityManager( 1978): Config changes=408 {1.0 ?mcc?mnc en_US ldltr sw320dp w320dp h455dp 160dpi nrml port ?uimode ?night finger -keyb/h/h -nav/h s.3 themeResource=null}
+I/PackageManager( 1978): Running dexopt on: com.android.packageinstaller
+I/PackageManager( 1978): Running dexopt on: com.android.calendar
+D/dalvikvm( 2164): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2165): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2164): Note: class Landroid/app/ActivityManagerNative; has 180 unimplemented (abstract) methods
+D/dalvikvm( 2164): DexOpt: load 299ms, verify+opt 778ms, 586388 bytes
+I/PackageManager( 1978): Running dexopt on: jackpal.androidterm
+D/dalvikvm( 2167): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2167): DexOpt: 'Landroid/annotation/SuppressLint;' has an earlier definition; blocking out
+D/dalvikvm( 2167): DexOpt: 'Landroid/annotation/TargetApi;' has an earlier definition; blocking out
+D/dalvikvm( 2167): DexOpt: not verifying/optimizing 'Landroid/annotation/SuppressLint;': multiple definitions
+D/dalvikvm( 2167): DexOpt: not verifying/optimizing 'Landroid/annotation/TargetApi;': multiple definitions
+D/dalvikvm( 2167): DexOpt: load 324ms, verify+opt 907ms, 630828 bytes
+I/PackageManager( 1978): Running dexopt on: com.android.deskclock
+D/dalvikvm( 2169): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+I/auditd  ( 2170): Starting up
+E/audit_log( 2170): Could not stat audit logfile /data/misc/audit/audit.log: Permission denied
+E/auditd  ( 2170): Failed on audit_log_open
+I/auditd  ( 2170): Exiting
+E/libaudit( 2170): Could net set pid for audit events, error: Protocol error
+D/dalvikvm( 2165): DexOpt: load 1031ms, verify+opt 4298ms, 1416044 bytes
+I/PackageManager( 1978): Running dexopt on: com.android.keyguard
+D/dalvikvm( 2174): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2169): DexOpt: load 766ms, verify+opt 2853ms, 1202012 bytes
+I/PackageManager( 1978): Running dexopt on: com.android.inputmethod.latin
+D/dalvikvm( 2174): Note: class Landroid/app/ActivityManagerNative; has 180 unimplemented (abstract) methods
+D/dalvikvm( 2176): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+I/auditd  ( 2177): Starting up
+E/audit_log( 2177): Could not stat audit logfile /data/misc/audit/audit.log: Permission denied
+E/auditd  ( 2177): Failed on audit_log_open
+I/auditd  ( 2177): Exiting
+E/libaudit( 2177): Could net set pid for audit events, error: Protocol error
+D/dalvikvm( 2174): DexOpt: load 752ms, verify+opt 1957ms, 1080604 bytes
+I/PackageManager( 1978): Running dexopt on: com.tmobile.thememanager
+D/dalvikvm( 2181): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2181): DexOpt: load 55ms, verify+opt 201ms, 263620 bytes
+I/PackageManager( 1978): Running dexopt on: com.android.camera2
+D/dalvikvm( 2183): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2176): DexOpt: load 830ms, verify+opt 4081ms, 1349108 bytes
+I/PackageManager( 1978): Running dexopt on: com.android.phone
+I/auditd  ( 2186): Starting up
+E/audit_log( 2186): Could not stat audit logfile /data/misc/audit/audit.log: Permission denied
+E/auditd  ( 2186): Failed on audit_log_open
+I/auditd  ( 2186): Exiting
+E/libaudit( 2186): Could net set pid for audit events, error: Protocol error
+D/dalvikvm( 2185): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2183): DexOpt: load 754ms, verify+opt 3788ms, 1310780 bytes
+I/PackageManager( 1978): Running dexopt on: com.android.sharedstoragebackup
+D/dalvikvm( 2190): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2190): DexOpt: load 60ms, verify+opt 62ms, 154860 bytes
+I/PackageManager( 1978): Running dexopt on: com.android.backupconfirm
+D/dalvikvm( 2192): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2192): DexOpt: load 69ms, verify+opt 171ms, 234356 bytes
+I/PackageManager( 1978): Running dexopt on: com.android.exchange
+D/dalvikvm( 2185): Note: class Landroid/app/ActivityManagerNative; has 180 unimplemented (abstract) methods
+D/dalvikvm( 2194): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+I/auditd  ( 2195): Starting up
+E/audit_log( 2195): Could not stat audit logfile /data/misc/audit/audit.log: Permission denied
+E/auditd  ( 2195): Failed on audit_log_open
+I/auditd  ( 2195): Exiting
+E/libaudit( 2195): Could net set pid for audit events, error: Protocol error
+D/dalvikvm( 2185): DexOpt: load 412ms, verify+opt 3839ms, 1343948 bytes
+I/PackageManager( 1978): Running dexopt on: Com.Klozz.Xperience
+D/dalvikvm( 2199): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2199): DexOpt: 'Landroid/annotation/SuppressLint;' has an earlier definition; blocking out
+D/dalvikvm( 2199): DexOpt: 'Landroid/annotation/TargetApi;' has an earlier definition; blocking out
+D/dalvikvm( 2199): DexOpt: not verifying/optimizing 'Landroid/annotation/SuppressLint;': multiple definitions
+D/dalvikvm( 2199): DexOpt: not verifying/optimizing 'Landroid/annotation/TargetApi;': multiple definitions
+D/dalvikvm( 2199): DexOpt: load 83ms, verify+opt 151ms, 191044 bytes
+I/PackageManager( 1978): Running dexopt on: com.android.mms
+D/dalvikvm( 2201): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+I/auditd  ( 2202): Starting up
+E/audit_log( 2202): Could not stat audit logfile /data/misc/audit/audit.log: Permission denied
+E/auditd  ( 2202): Failed on audit_log_open
+I/auditd  ( 2202): Exiting
+E/libaudit( 2202): Could net set pid for audit events, error: Protocol error
+D/dalvikvm( 2201): DexOpt: load 1211ms, verify+opt 4487ms, 1540164 bytes
+I/PackageManager( 1978): Running dexopt on: com.sonyericsson.anthal.service
+D/dalvikvm( 2206): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2206): DexOpt: load 52ms, verify+opt 20ms, 115716 bytes
+I/PackageManager( 1978): Running dexopt on: com.android.onetimeinitializer
+D/dalvikvm( 2208): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2208): DexOpt: load 63ms, verify+opt 38ms, 141164 bytes
+I/PackageManager( 1978): Running dexopt on: com.android.browser
+I/auditd  ( 2211): Starting up
+D/dalvikvm( 2210): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+E/audit_log( 2211): Could not stat audit logfile /data/misc/audit/audit.log: Permission denied
+E/auditd  ( 2211): Failed on audit_log_open
+I/auditd  ( 2211): Exiting
+E/libaudit( 2211): Could net set pid for audit events, error: Protocol error
+D/dalvikvm( 2194): DexOpt: load 1367ms, verify+opt 8312ms, 2145172 bytes
+I/PackageManager( 1978): Running dexopt on: com.android.development
+D/dalvikvm( 2215): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2215): Note: class Landroid/app/ActivityManagerNative; has 180 unimplemented (abstract) methods
+D/dalvikvm( 2215): DexOpt: load 317ms, verify+opt 1001ms, 684756 bytes
+I/PackageManager( 1978): Running dexopt on: com.bel.android.dspmanager
+D/dalvikvm( 2217): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+I/auditd  ( 2218): Starting up
+E/audit_log( 2218): Could not stat audit logfile /data/misc/audit/audit.log: Permission denied
+E/auditd  ( 2218): Failed on audit_log_open
+I/auditd  ( 2218): Exiting
+E/libaudit( 2218): Could net set pid for audit events, error: Protocol error
+D/dalvikvm( 2210): DexOpt: load 1399ms, verify+opt 3517ms, 1522932 bytes
+I/PackageManager( 1978): Running dexopt on: com.android.gallery3d
+D/dalvikvm( 2222): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2217): DexOpt: load 678ms, verify+opt 3000ms, 1133348 bytes
+I/PackageManager( 1978): Running dexopt on: com.android.soundrecorder
+D/dalvikvm( 2224): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2222): DexOpt: 'Landroid/util/Pools$Pool;' has an earlier definition; blocking out
+D/dalvikvm( 2222): DexOpt: 'Landroid/util/Pools$SimplePool;' has an earlier definition; blocking out
+D/dalvikvm( 2222): DexOpt: 'Landroid/util/Pools$SynchronizedPool;' has an earlier definition; blocking out
+D/dalvikvm( 2222): DexOpt: 'Landroid/util/Pools;' has an earlier definition; blocking out
+D/dalvikvm( 2224): DexOpt: load 109ms, verify+opt 594ms, 406676 bytes
+I/PackageManager( 1978): Running dexopt on: com.android.smspush
+D/dalvikvm( 2226): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2226): DexOpt: load 67ms, verify+opt 71ms, 145724 bytes
+I/PackageManager( 1978): Running dexopt on: com.sonyericsson.systemconnector
+D/dalvikvm( 2228): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+I/auditd  ( 2229): Starting up
+E/audit_log( 2229): Could not stat audit logfile /data/misc/audit/audit.log: Permission denied
+E/auditd  ( 2229): Failed on audit_log_open
+I/auditd  ( 2229): Exiting
+E/libaudit( 2229): Could net set pid for audit events, error: Protocol error
+D/dalvikvm( 2228): DexOpt: load 76ms, verify+opt 174ms, 191828 bytes
+I/PackageManager( 1978): Running dexopt on: com.tmobile.themechooser
+D/dalvikvm( 2233): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2233): DexOpt: load 249ms, verify+opt 416ms, 376332 bytes
+I/PackageManager( 1978): Running dexopt on: com.android.shell
+D/dalvikvm( 2235): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2235): DexOpt: load 114ms, verify+opt 417ms, 334092 bytes
+I/PackageManager( 1978): Running dexopt on: com.android.settings
+D/dalvikvm( 2222): DexOpt: not verifying/optimizing 'Landroid/util/Pools$Pool;': multiple definitions
+D/dalvikvm( 2222): DexOpt: not verifying/optimizing 'Landroid/util/Pools$SimplePool;': multiple definitions
+D/dalvikvm( 2222): DexOpt: not verifying/optimizing 'Landroid/util/Pools$SynchronizedPool;': multiple definitions
+D/dalvikvm( 2222): DexOpt: not verifying/optimizing 'Landroid/util/Pools;': multiple definitions
+D/dalvikvm( 2237): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+I/auditd  ( 2238): Starting up
+E/audit_log( 2238): Could not stat audit logfile /data/misc/audit/audit.log: Permission denied
+E/auditd  ( 2238): Failed on audit_log_open
+I/auditd  ( 2238): Exiting
+E/libaudit( 2238): Could net set pid for audit events, error: Protocol error
+I/dalvikvm( 2222): DexOpt: not resolving ambiguous class 'Landroid/util/Pools$SynchronizedPool;'
+I/dalvikvm( 2222): DexOpt: not resolving ambiguous class 'Landroid/util/Pools$SimplePool;'
+I/dalvikvm( 2222): DexOpt: not resolving ambiguous class 'Landroid/util/Pools$Pool;'
+I/dalvikvm( 2222): DexOpt: not resolving ambiguous class 'Landroid/util/Pools$SynchronizedPool;'
+I/auditd  ( 2241): Starting up
+E/audit_log( 2241): Could not stat audit logfile /data/misc/audit/audit.log: Permission denied
+E/auditd  ( 2241): Failed on audit_log_open
+I/auditd  ( 2241): Exiting
+E/libaudit( 2241): Could net set pid for audit events, error: Protocol error
+D/dalvikvm( 2237): Note: class Landroid/app/ActivityManagerNative; has 180 unimplemented (abstract) methods
+D/dalvikvm( 2222): DexOpt: load 1753ms, verify+opt 11409ms, 2337684 bytes
+I/PackageManager( 1978): Running dexopt on: com.android.pacprocessor
+D/dalvikvm( 2245): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2245): DexOpt: load 66ms, verify+opt 36ms, 125908 bytes
+I/PackageManager( 1978): Running dexopt on: com.android.wallpaper.livepicker
+D/dalvikvm( 2247): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2247): DexOpt: load 146ms, verify+opt 599ms, 370964 bytes
+I/PackageManager( 1978): Running dexopt on: com.android.cellbroadcastreceiver
+D/dalvikvm( 2249): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2249): DexOpt: load 347ms, verify+opt 977ms, 581516 bytes
+I/PackageManager( 1978): Running dexopt on: com.svox.pico
+I/auditd  ( 2252): Starting up
+E/audit_log( 2252): Could not stat audit logfile /data/misc/audit/audit.log: Permission denied
+E/auditd  ( 2252): Failed on audit_log_open
+I/auditd  ( 2252): Exiting
+E/libaudit( 2252): Could net set pid for audit events, error: Protocol error
+D/dalvikvm( 2251): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2251): DexOpt: load 133ms, verify+opt 129ms, 227388 bytes
+I/PackageManager( 1978): Running dexopt on: org.codeaurora.bluetooth
+D/dalvikvm( 2256): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2237): DexOpt: load 2157ms, verify+opt 12783ms, 2931844 bytes
+D/dalvikvm( 2256): DexOpt: load 274ms, verify+opt 3167ms, 651036 bytes
+I/PackageManager( 1978): Running dexopt on: com.cyanogenmod.updater
+I/auditd  ( 2257): Starting up
+E/audit_log( 2257): Could not stat audit logfile /data/misc/audit/audit.log: Permission denied
+E/auditd  ( 2257): Failed on audit_log_open
+I/auditd  ( 2257): Exiting
+E/libaudit( 2257): Could net set pid for audit events, error: Protocol error
+I/PackageManager( 1978): Running dexopt on: com.android.htmlviewer
+D/dalvikvm( 2263): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2261): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2263): DexOpt: load 90ms, verify+opt 237ms, 258780 bytes
+I/PackageManager( 1978): Running dexopt on: com.android.externalstorage
+D/dalvikvm( 2265): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2265): DexOpt: load 73ms, verify+opt 143ms, 224628 bytes
+I/PackageManager( 1978): Running dexopt on: org.whispersystems.whisperpush
+D/dalvikvm( 2261): DexOpt: load 351ms, verify+opt 605ms, 528580 bytes
+I/PackageManager( 1978): Running dexopt on: com.android.contacts
+D/dalvikvm( 2267): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2269): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+I/auditd  ( 2270): Starting up
+E/audit_log( 2270): Could not stat audit logfile /data/misc/audit/audit.log: Permission denied
+E/auditd  ( 2270): Failed on audit_log_open
+I/auditd  ( 2270): Exiting
+E/libaudit( 2270): Could net set pid for audit events, error: Protocol error
+D/dalvikvm( 2267): DexOpt: load 623ms, verify+opt 4596ms, 1221052 bytes
+I/PackageManager( 1978): Running dexopt on: com.android.stk
+D/dalvikvm( 2274): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2274): DexOpt: load 113ms, verify+opt 900ms, 461236 bytes
+I/PackageManager( 1978): Running dexopt on: com.android.documentsui
+D/dalvikvm( 2276): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+I/auditd  ( 2277): Starting up
+E/audit_log( 2277): Could not stat audit logfile /data/misc/audit/audit.log: Permission denied
+E/auditd  ( 2277): Failed on audit_log_open
+I/auditd  ( 2277): Exiting
+E/libaudit( 2277): Could net set pid for audit events, error: Protocol error
+D/dalvikvm( 2269): DexOpt: load 1452ms, verify+opt 7048ms, 1756884 bytes
+I/PackageManager( 1978): Running dexopt on: com.android.providers.calendar
+D/dalvikvm( 2281): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2276): DexOpt: load 484ms, verify+opt 2398ms, 926212 bytes
+I/PackageManager( 1978): Running dexopt on: com.andrew.apollo
+D/dalvikvm( 2283): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+I/auditd  ( 2284): Starting up
+E/audit_log( 2284): Could not stat audit logfile /data/misc/audit/audit.log: Permission denied
+E/auditd  ( 2284): Failed on audit_log_open
+I/auditd  ( 2284): Exiting
+E/libaudit( 2284): Could net set pid for audit events, error: Protocol error
+D/dalvikvm( 2281): Note: class Landroid/app/ActivityManagerNative; has 180 unimplemented (abstract) methods
+D/dalvikvm( 2281): DexOpt: load 244ms, verify+opt 2196ms, 623868 bytes
+I/PackageManager( 1978): Running dexopt on: com.android.keychain
+D/dalvikvm( 2288): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2288): DexOpt: load 91ms, verify+opt 723ms, 392836 bytes
+I/PackageManager( 1978): Running dexopt on: com.android.providers.downloads.ui
+D/dalvikvm( 2290): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2290): DexOpt: load 265ms, verify+opt 699ms, 446172 bytes
+I/PackageManager( 1978): Running dexopt on: com.android.providers.contacts
+D/dalvikvm( 2292): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2283): DexOpt: load 1164ms, verify+opt 3470ms, 1179580 bytes
+I/PackageManager( 1978): Running dexopt on: com.android.systemui
+I/auditd  ( 2293): Starting up
+E/audit_log( 2293): Could not stat audit logfile /data/misc/audit/audit.log: Permission denied
+E/auditd  ( 2293): Failed on audit_log_open
+I/auditd  ( 2293): Exiting
+E/libaudit( 2293): Could net set pid for audit events, error: Protocol error
+D/dalvikvm( 2297): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2292): Note: class Landroid/app/ActivityManagerNative; has 180 unimplemented (abstract) methods
+D/dalvikvm( 2297): Note: class Landroid/app/ActivityManagerNative; has 180 unimplemented (abstract) methods
+D/dalvikvm( 2292): DexOpt: load 352ms, verify+opt 3982ms, 802348 bytes
+I/PackageManager( 1978): Running dexopt on: com.android.voicedialer
+D/dalvikvm( 2299): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+I/auditd  ( 2300): Starting up
+E/audit_log( 2300): Could not stat audit logfile /data/misc/audit/audit.log: Permission denied
+E/auditd  ( 2300): Failed on audit_log_open
+I/auditd  ( 2300): Exiting
+E/libaudit( 2300): Could net set pid for audit events, error: Protocol error
+D/dalvikvm( 2299): DexOpt: load 117ms, verify+opt 696ms, 380276 bytes
+I/PackageManager( 1978): Running dexopt on: com.android.dreams.basic
+D/dalvikvm( 2304): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2304): DexOpt: load 76ms, verify+opt 115ms, 195628 bytes
+I/PackageManager( 1978): Running dexopt on: com.android.location.fused
+D/dalvikvm( 2297): DexOpt: load 1189ms, verify+opt 4024ms, 1409716 bytes
+I/PackageManager( 1978): Running dexopt on: com.cyanogenmod.trebuchet
+D/dalvikvm( 2306): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2306): DexOpt: load 80ms, verify+opt 41ms, 150364 bytes
+I/PackageManager( 1978): Running dexopt on: com.cyanogenmod.filemanager
+D/dalvikvm( 2308): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2310): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2308): DexOpt: 'Landroid/util/Pools$Pool;' has an earlier definition; blocking out
+D/dalvikvm( 2308): DexOpt: 'Landroid/util/Pools$SimplePool;' has an earlier definition; blocking out
+D/dalvikvm( 2308): DexOpt: 'Landroid/util/Pools$SynchronizedPool;' has an earlier definition; blocking out
+D/dalvikvm( 2308): DexOpt: 'Landroid/util/Pools;' has an earlier definition; blocking out
+D/dalvikvm( 2308): DexOpt: not verifying/optimizing 'Landroid/util/Pools$Pool;': multiple definitions
+D/dalvikvm( 2308): DexOpt: not verifying/optimizing 'Landroid/util/Pools$SimplePool;': multiple definitions
+D/dalvikvm( 2308): DexOpt: not verifying/optimizing 'Landroid/util/Pools$SynchronizedPool;': multiple definitions
+D/dalvikvm( 2308): DexOpt: not verifying/optimizing 'Landroid/util/Pools;': multiple definitions
+I/auditd  ( 2311): Starting up
+E/audit_log( 2311): Could not stat audit logfile /data/misc/audit/audit.log: Permission denied
+E/auditd  ( 2311): Failed on audit_log_open
+I/auditd  ( 2311): Exiting
+E/libaudit( 2311): Could net set pid for audit events, error: Protocol error
+D/dalvikvm( 2310): DexOpt: load 1282ms, verify+opt 3742ms, 1102764 bytes
+I/PackageManager( 1978): Running dexopt on: com.android.providers.downloads
+D/dalvikvm( 2315): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+I/auditd  ( 2316): Starting up
+E/audit_log( 2316): Could not stat audit logfile /data/misc/audit/audit.log: Permission denied
+E/auditd  ( 2316): Failed on audit_log_open
+I/auditd  ( 2316): Exiting
+E/libaudit( 2316): Could net set pid for audit events, error: Protocol error
+D/dalvikvm( 2315): DexOpt: load 255ms, verify+opt 1369ms, 574268 bytes
+I/dalvikvm( 2308): DexOpt: not resolving ambiguous class 'Landroid/util/Pools$Pool;'
+I/dalvikvm( 2308): DexOpt: not resolving ambiguous class 'Landroid/util/Pools$SynchronizedPool;'
+I/PackageManager( 1978): Running dexopt on: com.android.wallpaper
+D/dalvikvm( 2308): DexOpt: load 1719ms, verify+opt 6155ms, 1371148 bytes
+I/PackageManager( 1978): Running dexopt on: com.android.defcontainer
+D/dalvikvm( 2320): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2322): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2322): DexOpt: load 94ms, verify+opt 142ms, 212588 bytes
+I/PackageManager( 1978): Running dexopt on: com.android.providers.telephony
+D/dalvikvm( 2320): DexOpt: load 203ms, verify+opt 366ms, 418476 bytes
+I/PackageManager( 1978): Running dexopt on: com.cyanogenmod.settings.device.hwa
+D/dalvikvm( 2324): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2326): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2324): DexOpt: load 54ms, verify+opt 759ms, 275620 bytes
+I/PackageManager( 1978): Running dexopt on: com.android.vpndialogs
+D/dalvikvm( 2326): DexOpt: load 151ms, verify+opt 813ms, 417892 bytes
+D/dalvikvm( 2328): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+I/PackageManager( 1978): Running dexopt on: com.android.provision
+D/dalvikvm( 2330): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2330): DexOpt: load 101ms, verify+opt 7ms, 140100 bytes
+I/PackageManager( 1978): Running dexopt on: com.android.providers.userdictionary
+D/dalvikvm( 2328): DexOpt: load 99ms, verify+opt 444ms, 282796 bytes
+I/PackageManager( 1978): Running dexopt on: com.android.proxyhandler
+D/dalvikvm( 2332): DexOpt: sleeping on flock(/data/dalvik-cache/system@framework@okhttp.jar@classes.dex)
+D/dalvikvm( 2332): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2334): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2334): DexOpt: load 70ms, verify+opt 85ms, 156492 bytes
+D/dalvikvm( 2332): DexOpt: load 69ms, verify+opt 143ms, 173356 bytes
+I/PackageManager( 1978): Running dexopt on: com.android.wallpapercropper
+I/PackageManager( 1978): Running dexopt on: com.android.dialer
+D/dalvikvm( 2337): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+I/auditd  ( 2340): Starting up
+E/audit_log( 2340): Could not stat audit logfile /data/misc/audit/audit.log: Permission denied
+E/auditd  ( 2340): Failed on audit_log_open
+I/auditd  ( 2340): Exiting
+E/libaudit( 2340): Could net set pid for audit events, error: Protocol error
+D/dalvikvm( 2338): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+D/dalvikvm( 2337): DexOpt: load 381ms, verify+opt 739ms, 438316 bytes
+I/PackageManager( 1978): Running dexopt on: com.android.calculator2
+D/dalvikvm( 2344): Unable to stat classpath element '/system/framework/webviewchromium.jar'
+I/auditd  ( 2345): Starting up
+E/audit_log( 2345): Could not stat audit logfile /data/misc/audit/audit.log: Permission denied
+E/auditd  ( 2345): Failed on audit_log_open
+I/auditd  ( 2345): Exiting
+E/libaudit( 2345): Could net set pid for audit events, error: Protocol error
+D/dalvikvm( 2344): DexOpt: load 831ms, verify+opt 3524ms, 1012596 bytes
+I/PackageManager( 1978): Running dexopt on: com.android.bluetooth
